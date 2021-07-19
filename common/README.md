@@ -11,3 +11,9 @@ source common_setup.sh
 - [ ] implement and test below files
   - [ ] common
   - [ ] python
+
+---
+
+## References
+
+- https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/docker-basics.html
