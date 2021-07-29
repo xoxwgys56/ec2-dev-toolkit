@@ -1,0 +1,32 @@
+" load `pathogen` automatically
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set smartindent
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set autoindent
+set cindent
+
+"add plugin vim-rainbow for syntax highlight
+":plugin 'frazrepo/vim-rainbow'
+" uncomment below line if you want see line number
+set nu
+" set background theme. in this script use darcula so not affected
+"set background=light
+
+" add recommend setting from syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" color theme
+colorscheme darcula
+"colorscheme jellybeans
