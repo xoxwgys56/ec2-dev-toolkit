@@ -15,6 +15,9 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 git clone https://github.com/pangloss/vim-javascript.git ~/.vim/pack/vim-javascript/start/vim-javascript
 # install python highlight
 git clone https://github.com/hdima/python-syntax.git ~/.vim/pack/vim-python
+# install jedi for python autocompletion
+cd ~/.vim/bundle
+git clone https://github.com/davidhalter/jedi-vim
 
 # color scheme
 # install jellybeans color scheme
